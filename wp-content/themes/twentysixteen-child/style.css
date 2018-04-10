@@ -1,0 +1,355 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://example.com/twentysixteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Michael Sheils McNamee
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+
+/*Across the Site*/
+
+body {
+    background: #F0F4F5;
+    font-family: 'open sans', sans-serif;
+    text-decoration-color: #FFF;
+}
+
+.site-content {
+    background: #F0F4F5;
+}
+
+/*Top Nav Bar*/
+
+#menu-top_nav_menu {
+    position: fixed;
+    top: 5px;
+    right: 2%;
+}
+
+.site-branding {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.main-navigation a {
+    font-family: 'Dosis', sans-serif;
+}
+
+/*Front page design*/ 
+
+#primary {
+    width: 100%;
+}
+
+.page-header {
+	border-top: none;
+	padding-top: 1.75em;
+    margin-bottom: 3%;
+}
+
+.page-header h1 {
+    margin: 0 auto;
+    max-width: 90%;
+    border-bottom: .1px black solid;
+    font-family: 'Dosis', sans-serif;
+}
+
+.page-content {
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.page-content h3 {
+    margin-bottom: 2%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.page-content p {
+    margin: 0 0 5px 0;
+}
+
+.profile {
+    margin: auto 6%;
+}
+
+.profile-text h3 {
+    margin-bottom: 8px;
+}
+
+/*Flex Box for main profile information */
+
+.profile-text {
+    float: left;
+    max-width: 65%;
+}
+
+.profile-image {
+    display: inline;
+    max-width: 30%;
+    padding-left: 5%;
+    position: relative;
+    top: 45px;
+}
+
+/*Correcting the separation between list and header in services and accreditation*/
+
+.services-content {
+    margin: 0 0 1% 0;
+}
+
+.header-accreditation {
+    margin: 0 0 1% 0;
+}
+
+.main-accreditation {
+    margin: 0;
+}
+
+/*Making the banner image full width */
+
+#banner-image {
+    background-image: url(img/banner_free-to-use_2.jpg);
+    width: 100%;
+    height: 300px;
+    margin: 1px;
+    padding: 0;
+}
+
+#banner-image h2 {
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    top: 120px;
+    max-width: 50%;
+    margin: auto; 
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    background-color: #F0F4F5;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.name {
+    position: absolute;
+    max-width: 50%;
+    top: 210px;
+    margin: auto; 
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    background-color: #F0F4F5;
+    padding-right: 10px;
+}
+
+.number {
+    position: absolute;
+    max-width: 50%;
+    top: 240px;
+    margin: auto; 
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    background-color: #F0F4F5;
+    padding-right: 10px;
+    
+}
+
+
+/*Removing the masthead*/
+
+@media screen and (min-width: 61.5625em) {
+	.site-main {
+		margin-bottom: 0em;
+	}
+
+	.site-header {
+		padding: 0em 4.5455%;
+	}
+    
+/*Profile image*/
+    
+.profile-image img {
+    max-width: 20%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    }
+    
+/*Header design*/ 
+
+.site-header-main {
+    background: #F0F4F5;
+    height: 45px;
+    z-index: 170;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadada;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.site-title {
+    font-family: 'Bree Serif', sans-serif;
+    position: fixed; 
+    top: 5px;
+    left: 2%;
+}
+
+/* Site footer*/ 
+    
+.contact-footer h1 {
+    font-family: 'Bree Serif', 'serif';    
+    }
+
+.site-footer {
+    max-width: 90%;
+    margin: 3% auto 0% auto;
+    background-color: #F0F4F5;
+    border-top: 1px black dotted;
+    }
+
+.footer-info {
+    display: flex;       
+    justify-content: space-around; 
+    margin-top: 2%;
+    }
+
+
+.physio-text {
+    max-width: 14%;
+    position: relative;
+    top: 12px;
+    }
+
+.physio-text a {
+    color: #000;
+    }
+    
+.physio-text a:hover {
+    color: #0071CC;
+    }
+
+.health-text {
+    max-width: 13%;
+    position: relative;
+    top: 12px;
+    }
+    
+.health-text a {
+    color: #000;
+    }
+    
+.health-text a:hover {
+    color: #0071CC;
+    }
+    
+.health-image {
+    padding-right: 30px;
+    padding-right: 30px;
+    border-right: 1px black dotted;
+    position: relative;
+    top: 12px;
+    }
+    
+.site-inner {
+    background-color: #F0F4F5;
+    }
+    
+.contact-footer {
+    max-width: 40%;
+    padding-left: 20px;
+    }
+    
+.contact-footer p {
+    margin: 0;
+    }
+
+.footer-info h2 {
+    line-height: 115%;
+    font-size: 20px;
+    }
+
+.physio-image {
+    border-right: 1px black dotted;
+    position: relative;
+    top: 12px;
+    }
+
+.physio-image img {
+    max-width: 90%;
+    }
+    
+/* Contact Us styles */
+    
+.contact-content {
+    max-width: 48%;
+    float: left;
+    padding-right: 30px;
+    }
+
+.contact-content p {
+    margin: 0;
+    }
+    
+.contact-content h3 {
+    font-family: 'Bree Serif', sans-serif;
+    }
+    
+.map {
+    max-width: 48%; 
+    float: right;
+    }
+
+.contact-body {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    }
+    
+/* About Styles */ 
+
+.about-content {
+    max-width: 65%;
+    margin: 0 auto;
+    margin-left: 5%;
+    }
+
+.about-content p {
+    margin: 0 0 15px 0;
+    }
+
+.about-content h3 {
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 25px;
+    }
+    
+.about-image {
+    max-width: 25%;
+    position: relative;
+    top: 60px;
+    }
+    
+.about-image img {    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+        }
+
+.about-main {
+    display: flex;
+    max-width: 90%;
+    }
