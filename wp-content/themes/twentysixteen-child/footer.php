@@ -20,7 +20,7 @@
                         </a>
                     </div>
                     <div class="physio-image">    
-                        <a href="http://www.csp.org.uk/" target="_blank"><img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/chartered_logo_no-background.png" alt="Chartered Society of Physios logo" width="100" height="auto"></a>
+                        <a href="http://www.csp.org.uk/" target="_blank"><img src="img/chartered_logo_no-background.png"S alt="Chartered Society of Physios logo" width="100" height="auto"></a>
                     </div>  
                     <div class="health-text">
                         <a href="http://www.hcpc-uk.co.uk/" target="_blank">
@@ -28,7 +28,7 @@
                         </a>
                     </div>
                     <div class="health-image">
-                        <a href="http://www.hcpc-uk.co.uk/" target="_blank"><img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/hcpc_logo_1.jpg" alt="Chartered Society of Physios logo" width="150" height="auto"></a> 
+                        <a href="http://www.hcpc-uk.co.uk/" target="_blank"><img src= "img/hcpc_logo_1.JPG" alt="Chartered Society of Physios logo" width="150" height="auto"></a> 
                     </div>            
                     <div class="contact-footer">
                         <h1>The Back Pain Clinic</h1>
